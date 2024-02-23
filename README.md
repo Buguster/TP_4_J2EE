@@ -1,3 +1,5 @@
+<h4>TP 4 Compte Rendu Partie 1</h4>
+
 <h5>Contexte :</h5>
     <p>Le But de ce TP est : réaliser une application CRUD de gestion des produits.</p>
 
@@ -38,7 +40,7 @@ seule table «PRODUITS», cette dernière contiendra 4 colonnes :
 
 [http://localhost/phpmyadmin/index.php](http://localhost/phpmyadmin/index.php)
 
-![[Pasted image 20240221212747.png]]
+ <img src='Screenshoot/connexion.png' alt='Screenshot of creation user'>
 
 ```SQL
 CREATE DATABASE IF NOT EXISTS DB_MVC;
@@ -63,8 +65,6 @@ insert into PRODUITS VALUES
 (3, 'HP6730s', 4000),
 (4, 'DELL', 3500);
 ```
-
-![[Pasted image 20240221205540.png]]
 
 ##### Question 3:
 
@@ -273,7 +273,7 @@ public class TestMetier {
 
 jusqu'au maintenant lorsqu'on exécute la fonction principale main on obtient le résultat dans le console on vérifie que le sqlconnector est bien placé dans le lib :
 
-![[Pasted image 20240223214628.png]]
+ <img src='Screenshoot/testmain.png' alt='Screenshot of creation user'>
 
 ### II La couche Web :
 
@@ -395,14 +395,11 @@ value="${modele.motCle}">
 
 lorsqu'on exécute l'application dans le serveur on obtient le résultat suivant :
 
-![[Pasted image 20240221224433.png]]
+ <img src='Screenshoot/ProduitView.png' alt='Screenshot of creation user'>
 
 on cherche les produits de HP :
 
-![[Pasted image 20240221224502.png]]
-on cherche pour les produits qui contient "DELL" comme mot clé :
-
-![[Pasted image 20240221224525.png]]
+ <img src='Screenshoot/ProduitViewResult.png' alt='Screenshot of creation user'>
 
 la structure de notre projet :
 
@@ -523,8 +520,8 @@ pour l'implémentation de la méthode dans la classe _MetierImpl_
 	}
 ```
 
-![[Pasted image 20240223223151.png]]
+ <img src='Screenshoot/ajouter.png' alt='Screenshot of creation user'>
 
 il est mise à jour dans la table :
 
-![[gnome-shell-screenshot-GFBTJ2.png]]
+ <img src='Screenshoot/table_mise_à_jour.png' alt='Screenshot of creation user'>
